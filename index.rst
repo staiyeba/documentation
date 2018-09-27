@@ -12,10 +12,14 @@ For more information: Visit our `website <http://www.includeos.org>`__, check ou
    Getting-started
    Contributing-to-IncludeOS
    Features
+   Install
+   Building-with-Docker
    Examples-and-libraries
+   Running-tests
    NaCl
    Using-memdisks
    Security
+   Roadmap
    More-information
    FAQ
    Deeper-understanding

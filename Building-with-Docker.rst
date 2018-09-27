@@ -3,7 +3,7 @@
 Building Docker images
 ======================
 
-This allows anyone to build [IncludeOS](https://github.com/hioa-cs/IncludeOS/)
+This allows anyone to build `IncludeOS <https://github.com/hioa-cs/IncludeOS/>`_
 unikernels on docker without having to install the development environment locally on the machine.
 
 Build options
@@ -11,17 +11,15 @@ Build options
 
 When building the docker image there are a few options available:
 
-
-Plain text	Typical result
-Grid table:
-
-+-----------------------+------------------------------------------------+
-|       Action          |                     Command                    |
-|-----------------------|------------------------------------------------|
-| Specify build version |    --build-arg TAG=<git tag/version to build>  |
-|   Service to build    |        --target=<build/grubify/webserver>      |
-|      Custom Tag       |           --build-arg TAG=<custom-tag>         |
-+-----------------------+------------------------------------------------+
++-----------------------+--------------------------------------------+
+|       **Action**      |                  **Command**               |
+|-----------------------|--------------------------------------------|
+| Specify build version | --build-arg TAG=<git tag/version to build> |
+|-----------------------|--------------------------------------------|
+|   Service to build    | --target=<build/grubify/webserver>         |
+|-----------------------|--------------------------------------------|
+|      Custom Tag       |  --build-arg TAG=<custom-tag>              |
++-----------------------+--------------------------------------------+
 
 Docker tag structure
 ~~~~~~~~~~~~~~~~~~~~
@@ -103,4 +101,10 @@ $ cd lib/uplink/starbase/
 $ docker run --rm -v $PWD:/service includeos/dev:v0.12.0-rc-4
 
 
-**Note:**  Remember to remove (if present) the build folder present in the service (starbase) directory with `rm -rf build`
+**Note:**  Remember to remove (if present) the build folder present in the service (starbase) directory with:
+
+::
+
+$ rm -rf build
+
+and then run with the above docker run command.
