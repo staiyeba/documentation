@@ -11,21 +11,27 @@ Build options
 
 When building the docker image there are a few options available:
 
-|Action| Command |
-|--|--|
-|Specify build version| ```--build-arg TAG=<git tag/version to build>``` |
-|Service to build|```--target=<build/grubify/webserver>```|
-|Custom Tag|```--build-arg TAG=<custom-tag>```|
+
+Plain text	Typical result
+Grid table:
+
++-----------------------+------------------------------------------------+
+|       Action          |                     Command                    |
+|-----------------------|------------------------------------------------|
+| Specify build version |    --build-arg TAG=<git tag/version to build>  |
+|   Service to build    |        --target=<build/grubify/webserver>      |
+|      Custom Tag       |           --build-arg TAG=<custom-tag>         |
++-----------------------+------------------------------------------------+
 
 Docker tag structure
 ~~~~~~~~~~~~~~~~~~~~
 
 The docker tags in use for these images are:
 
-```
-<org>/<service>:<IncludeOS_Tag>.<Dockerfile version>
-includeos/build:v0.12.0-rc.3.1
-```
+::
+
+<org>/<service>:<IncludeOS_Tag>.<Dockerfile version> includeos/build:v0.12.0-rc.3.1
+
 For every change made to the Dockerfile the corresponding tag is incremented.
 
 Building services
@@ -44,7 +50,11 @@ To build with IncludeOS internal build tags, it can be done as follows:
 
 $ docker build --build-arg TAG=v0.12.0-rc.4 --target=build -t includeos/build:v0.12.0-rc.4.01 .
 
+::
+
 $ cd <my-super-cool-service>
+
+::
 
 $ docker run --rm -v $PWD:/service includeos/build:v0.12.0-rc.4.01
 
@@ -67,6 +77,8 @@ The custom tag can be assigned during build as follows:
 
 $ docker build --build-arg TAG=myKoolTag -t <username>/includeos-build:v0.12.0-rc.4.01 .
 
+::
+
 $ docker run --rm -v $PWD:/service <username>/includeos-build:v0.12.0-rc.4.01
 
 
@@ -78,9 +90,15 @@ Example: Building our Service - Starbase
 
 $ cd IncludeOS
 
+::
+
 $ docker build --build-arg TAG=buildStarbase -t includeos/dev:v0.12.0-rc-4 .
 
+::
+
 $ cd lib/uplink/starbase/
+
+::
 
 $ docker run --rm -v $PWD:/service includeos/dev:v0.12.0-rc-4
 
