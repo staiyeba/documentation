@@ -1,4 +1,4 @@
-.. _Building_Docker_Images:
+.. _Building Docker Images:
 
 Building Docker images
 ======================
