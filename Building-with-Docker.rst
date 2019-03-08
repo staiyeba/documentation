@@ -38,6 +38,12 @@ Building services
 As specified above there are a number of options for building IncludeOS.
 All of the options are optional.
 
+The most straight forward command that builds and runsyour service for you:
+
+::
+
+$ docker run --rm -v $PWD:/service includeos/build:v0.13.0-rc.2
+
 
 Building services with IncludeOS build tags
 -------------------------------------------
@@ -46,7 +52,7 @@ To build with IncludeOS internal build tags, it can be done as follows:
 
 ::
 
-$ docker build --build-arg TAG=v0.12.0-rc.4 --target=build -t includeos/build:v0.12.0-rc.4.01 .
+$ docker build --build-arg TAG=v0.13.0-rc.2 --target=build -t includeos/build:v0.13.0-rc.2.01 .
 
 ::
 
@@ -54,7 +60,7 @@ $ cd <my-super-cool-service>
 
 ::
 
-$ docker run --rm -v $PWD:/service includeos/build:v0.12.0-rc.4.01
+$ docker run --rm -v $PWD:/service includeos/build:v0.13.0-rc.2.01
 
 
 Building services with Users own custom tags
