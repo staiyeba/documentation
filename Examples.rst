@@ -1,10 +1,7 @@
-.. _Examples and libraries:
-
-Examples and libraries
-======================
+.. _Examples:
 
 Examples
-~~~~~~~~
+========
 
 `256 Color VGA <https://github.com/hioa-cs/IncludeOS/tree/master/examples/256_color_vga>`__
 
@@ -12,7 +9,7 @@ Examples
 
 `LiveUpdate <https://github.com/hioa-cs/IncludeOS/tree/master/examples/LiveUpdate>`__
 
-`SQlite <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/SQlite>`__
+`SQlite`
 
 `STREAM <https://github.com/hioa-cs/IncludeOS/tree/master/examples/STREAM>`__
 
@@ -22,7 +19,7 @@ Examples
 
 `Acorn <https://github.com/hioa-cs/IncludeOS/tree/master/examples/acorn>`__
 
-`Demo Linux <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/demo_linux>`__
+`Demo Linux`
 
 `Demo Service <https://github.com/hioa-cs/IncludeOS/tree/master/examples/demo_service>`__
 
@@ -32,11 +29,11 @@ Examples
 
 `Router <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/router>`__
 
-`Dualnic <https://github.com/hioa-cs/IncludeOS/tree/master/examples/dualnic>`__
+`Dualnic`
 
 `Scoped Profiler <https://github.com/hioa-cs/IncludeOS/tree/master/examples/scoped_profiler>`__
 
-`SMP <https://github.com/hioa-cs/IncludeOS/tree/master/examples/smp>`__
+`SMP`
 
 `Snake <https://github.com/hioa-cs/IncludeOS/tree/master/examples/snake>`__
 
@@ -49,38 +46,3 @@ Examples
 `Websocket <https://github.com/hioa-cs/IncludeOS/tree/master/examples/websocket>`__
 
 `UniK Test Service <https://github.com/includeos/unik_test_service>`__
-
-Libraries
-~~~~~~~~~
-
-`LiveUpdate <https://github.com/hioa-cs/IncludeOS/tree/master/lib/LiveUpdate>`__
-
-`MicroLB <https://github.com/hioa-cs/IncludeOS/tree/dev/lib/microLB>`__
-
-`Uplink <https://github.com/hioa-cs/IncludeOS/tree/master/lib/uplink>`__
-
-`NaCl <https://github.com/includeos/NaCl/tree/master>`__
-
-`Mana <https://github.com/hioa-cs/IncludeOS/tree/master/lib/mana>`__
-
-`Protobuf <https://github.com/RicoAntonioFelix/protobuf/tree/master>`__
-
-`Mender <https://github.com/hioa-cs/IncludeOS/tree/dev/lib/mender>`__
-
-`URI <https://github.com/includeos/uri>`__
-
-`HTTP <https://github.com/includeos/http>`__
-
-`Bucket <https://github.com/includeos/bucket>`__
-
-`Dashboard <https://github.com/includeos/dashboard>`__
-
-`Cookie <https://github.com/includeos/cookie>`__
-
-`Path to Regex <https://github.com/includeos/path_to_regex>`__
-
-`JSON <https://github.com/includeos/json>`__
-
-`Director <https://github.com/includeos/director>`__
-
-`Butler <https://github.com/includeos/butler>`__
