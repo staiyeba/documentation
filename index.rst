@@ -12,6 +12,7 @@ For more information: Visit our `website <http://www.includeos.org>`__, check ou
    Introduction
    Deeper-understanding
    Getting-started
+   Conan-configs
    Security
    Contributing-to-IncludeOS
    Jenkins-CI

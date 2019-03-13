@@ -68,3 +68,8 @@ To add the IncludeOS-Develop conan Artifactory repository to your conan remotes:
 
 ::
   $ conan remote add includeos-test https://api.bintray.com/conan/includeos/test-packages
+
+.. toctree::
+  :hidden:
+
+  Conan-package-build

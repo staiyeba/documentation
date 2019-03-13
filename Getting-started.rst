@@ -70,12 +70,4 @@ profile.
 Building on MacOS
 -----------------
 
-
 .. needs to be added from notes
-
-.. toctree::
-   :hidden:
-   :maxdepth: 2
-
-   Conan-configs
-   Conan-package-build
