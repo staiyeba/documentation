@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'IncludeOS'
-copyright = u'2016, IncludeOS'
+copyright = u'2014-2019, IncludeOS AS'
 author = u'IncludeOS'
 
 # The version info for the project you're documenting, acts as replacement for
