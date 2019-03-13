@@ -3,11 +3,6 @@
 Tools, Libraries and Dependencies
 =================================
 
-.. toctree::
-   :hidden:
-
-   NaCl
-
 Tools
 ~~~~~
 

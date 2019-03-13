@@ -1,6 +1,6 @@
 .. _Deeper understanding:
 
-Deeper understanding
+More about IncludeOS
 ====================
 
 .. Own content for this section
@@ -12,4 +12,3 @@ Deeper understanding
    The-build-process
    The-boot-process
    Fun-with-Guns-and-Knives
-   Jenkins-CI
