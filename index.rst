@@ -6,19 +6,17 @@ IncludeOS
 For more information: Visit our `website <http://www.includeos.org>`__, check out the project on `GitHub <https://github.com/hioa-cs/IncludeOS>`__ or come chat with us on `Slack <https://goo.gl/NXBVsc>`__!
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :hidden:
+   :maxdepth: 3
 
+   Introduction
+   Deeper-understanding
    Getting-started
-   Contributing-to-IncludeOS
-   Features
-   Examples-and-libraries
-   NaCl
-   Using-memdisks
    Security
+   Contributing-to-IncludeOS
+   Jenkins-CI
    More-information
    FAQ
-   Deeper-understanding
    Publications
    Roadmap
    Acknowledgements
