@@ -22,16 +22,17 @@ To build a minimal IncludeOS the following dependencies are required at the mome
 - Cmake
 - Clang version: ``6.0``
 - GCC version: ``gcc-7``
-- [Conan](https://github.com/conan-io/conan)
+- `Conan <https://github.com/conan-io/conan>`__
 
 To get help with your conan setup follow the instruction at
-:ref:``Conan Configuration <Conan configs>``
+:ref:`Conan Configuration <Conan configs>`
 
 Build IncludeOS
 ~~~~~~~~~~~~~~~
 
 To build IncludeOS with our conan packages you will need:
-- A [Profile](https://github.com/includeos/conan_config/profiles)
+
+- A `Profile <https://github.com/includeos/conan_config/profiles>`__
 - Access to our built conan packages
 
 To get access to the packages add our Artifactory to your conan remote list:
@@ -67,7 +68,10 @@ Cross-Platform Building
 To build IncludeOS for MacOS on Linux, you can use the ``clang-6.0-macos-x86_64``
 profile.
 
-Building on MacOS
------------------
 
-.. needs to be added from notes
+.. toctree::
+   :maxdepth: 1
+   :caption: To learn more about building IncludeOS kernel and it's dependencies visit our guide pages.
+
+   Linux-guide
+   Macos-guide
