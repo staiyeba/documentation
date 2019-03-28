@@ -1,44 +1,86 @@
-.. _Examples:
+.. _Examples and libraries:
+
+Examples and libraries
+======================
 
 Examples
-========
+~~~~~~~~
 
-`256 Color VGA <https://github.com/includeos/demo-examples/tree/master/256_color_vga>`__
+`256 Color VGA <https://github.com/hioa-cs/IncludeOS/tree/master/examples/256_color_vga>`__
 
-`IRCd <https://github.com/includeos/demo-examples/tree/master/IRCd>`__
+`IRCd <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/IRCd>`__
 
-`LiveUpdate <https://github.com/includeos/demo-examples/tree/master/LiveUpdate>`__
+`LiveUpdate <https://github.com/hioa-cs/IncludeOS/tree/master/examples/LiveUpdate>`__
 
-`STREAM <https://github.com/includeos/demo-examples/tree/master/STREAM>`__
+`SQlite <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/SQlite>`__
 
-`TCP perf <https://github.com/includeos/demo-examples/tree/master/TCP_perf>`__
+`STREAM <https://github.com/hioa-cs/IncludeOS/tree/master/examples/STREAM>`__
 
-`TLS server <https://github.com/includeos/demo-examples/tree/master/TLS_server>`__
+`TCP perf <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/TCP_perf>`__
 
-`Acorn <https://github.com/includeos/demo-examples/tree/master/acorn>`__
+`TLS server <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/TLS_server>`__
 
-`Demo Service <https://github.com/includeos/demo-examples/tree/master/demo_service>`__
+`Acorn <https://github.com/hioa-cs/IncludeOS/tree/master/examples/acorn>`__
 
-`Http Client <https://github.com/includeos/demo-examples/tree/master/http_client>`__
+`Demo Linux <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/demo_linux>`__
 
-`Mender <https://github.com/includeos/demo-examples/tree/master/mender>`__
+`Demo Service <https://github.com/hioa-cs/IncludeOS/tree/master/examples/demo_service>`__
 
-`MicroLB <https://github.com/includeos/demo-examples/tree/master/microLB>`__
+`Mender <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/mender>`__
 
-`Protobuf <https://github.com/includeos/demo-examples/tree/master/protobuf>`__
+`MicroLB <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/microLB>`__
 
-`Router <https://github.com/includeos/demo-examples/tree/master/router>`__
+`Router <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/router>`__
 
-`Scoped Profiler <https://github.com/includeos/demo-examples/tree/master/scoped_profiler>`__
+`Dualnic <https://github.com/hioa-cs/IncludeOS/tree/master/examples/dualnic>`__
 
-`Snake <https://github.com/includeos/demo-examples/tree/master/snake>`__
+`Scoped Profiler <https://github.com/hioa-cs/IncludeOS/tree/master/examples/scoped_profiler>`__
 
-`Starlight <https://github.com/includeos/demo-examples/tree/master/starlight>`__
+`SMP <https://github.com/hioa-cs/IncludeOS/tree/master/examples/smp>`__
 
-`Syslog <https://github.com/includeos/demo-examples/tree/master/syslog>`__
+`Snake <https://github.com/hioa-cs/IncludeOS/tree/master/examples/snake>`__
 
-`TCP <https://github.com/includeos/demo-examples/tree/master/tcp>`__
+`Syslog <https://github.com/hioa-cs/IncludeOS/tree/master/examples/syslog>`__
 
-`Vlan <https://github.com/includeos/demo-examples/tree/master/vlan>`__
+`TCP <https://github.com/hioa-cs/IncludeOS/tree/master/examples/tcp>`__
 
-`Websocket <https://github.com/includeos/demo-examples/tree/master/websocket>`__
+`Vlan <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/vlan>`__
+
+`Websocket <https://github.com/hioa-cs/IncludeOS/tree/master/examples/websocket>`__
+
+`UniK Test Service <https://github.com/includeos/unik_test_service>`__
+
+Libraries
+~~~~~~~~~
+
+`LiveUpdate <https://github.com/hioa-cs/IncludeOS/tree/master/lib/LiveUpdate>`__
+
+`MicroLB <https://github.com/hioa-cs/IncludeOS/tree/dev/lib/microLB>`__
+
+`Uplink <https://github.com/hioa-cs/IncludeOS/tree/master/lib/uplink>`__
+
+`NaCl <https://github.com/includeos/NaCl/tree/master>`__
+
+`Mana <https://github.com/hioa-cs/IncludeOS/tree/master/lib/mana>`__
+
+`Protobuf <https://github.com/RicoAntonioFelix/protobuf/tree/master>`__
+
+`Mender <https://github.com/hioa-cs/IncludeOS/tree/dev/lib/mender>`__
+
+`URI <https://github.com/includeos/uri>`__
+
+`HTTP <https://github.com/includeos/http>`__
+
+`Bucket <https://github.com/includeos/bucket>`__
+
+`Dashboard <https://github.com/includeos/dashboard>`__
+
+`Cookie <https://github.com/includeos/cookie>`__
+
+`Path to Regex <https://github.com/includeos/path_to_regex>`__
+
+`JSON <https://github.com/includeos/json>`__
+
+`Director <https://github.com/includeos/director>`__
+
+`Butler <https://github.com/includeos/butler>`__

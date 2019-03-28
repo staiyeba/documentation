@@ -1,5 +1,6 @@
 .. _Tools:
 
+<<<<<<< HEAD
 Tools, Libraries and Dependencies
 =================================
 
@@ -39,6 +40,24 @@ Libraries developed by IncludeOS are listed here.
 `Mender <https://github.com/includeos/mender>`__
 ------------------------------------------------
 
+=======
+Tools and Libraries
+===================
+
+.. Needs an update
+
+`LiveUpdate <https://github.com/hioa-cs/IncludeOS/tree/master/lib/LiveUpdate>`__
+
+`MicroLB <https://github.com/hioa-cs/IncludeOS/tree/dev/lib/microLB>`__
+
+`Uplink <https://github.com/hioa-cs/IncludeOS/tree/master/lib/uplink>`__
+
+`Mana <https://github.com/hioa-cs/IncludeOS/tree/master/lib/mana>`__
+
+`Protobuf <https://github.com/RicoAntonioFelix/protobuf/tree/master>`__
+
+`Mender <https://github.com/hioa-cs/IncludeOS/tree/dev/lib/mender>`__
+>>>>>>> d5fb1201357253d4116c3c89a98f151a8ce6b9ba
 
 `URI <https://github.com/includeos/uri>`__
 
