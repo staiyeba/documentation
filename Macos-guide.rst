@@ -1,0 +1,17 @@
+.. _Macos guide:
+
+Building on MacOS
+=================
+
+To start building on MacOS make sure to have a working installation of [brew](https://brew.sh/) to be able to install all dependencies.
+
+Building the kernel on MacOS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To start building the kernel on MacOS start by installing the dependencies.
+
+Dependencies
+------------
+
+- Cmake
+- Conan

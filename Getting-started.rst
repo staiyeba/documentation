@@ -9,7 +9,6 @@ Cloning the IncludeOS repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ::
-
     $ git clone https://github.com/hioa-cs/IncludeOS
     $ cd IncludeOS
 
@@ -39,7 +38,7 @@ To get access to the packages add our Artifactory to your conan remote list:
 
 ::
 
-  $ conan remote add includeos-test https://api.bintray.com/conan/includeos/test-packages
+    $ conan remote add includeos-test https://api.bintray.com/conan/includeos/test-packages
 
 
 Compilers
@@ -49,8 +48,8 @@ Currently we are building IncludeOS on Linux with ``clang-6.0`` and ``gcc-7.3``.
 All our dependencies, libraries and tools found on the artifactory are built
 and test with these two compilers.
 
-Building on Linux
------------------
+Building kernel on Linux
+------------------------
 
 To build IncludeOS on Linux for Linux with clang-6.0 you can use the profile named
 ``clang-6.0-linux-x86_64``:
@@ -75,3 +74,5 @@ profile.
 
    Linux-guide
    Macos-guide
+   Howto-Kernel-dev
+   Howto-Service-dev

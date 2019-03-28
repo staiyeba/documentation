@@ -21,7 +21,7 @@ To build ``bintuils`` using our [conan recipes](https://github.com/includeos/con
 - Do ``conan create`` as follows:
 
 ::
-  $ conan create <binutils-conan-recipe-path>/binutils/2.31 -pr <yourprofilename>-toolchain includeos/test
+    $ conan create <binutils-conan-recipe-path>/binutils/2.31 -pr <yourprofilename>-toolchain includeos/test
 
 
 Building Dependencies
@@ -33,7 +33,7 @@ Building musl
 ^^^^^^^^^^^^^
 
 ::
-  $ conan create <conan-recipe-path>/musl/1.1.18 -pr <yourprofilename> includeos/test
+    $ conan create <conan-recipe-path>/musl/1.1.18 -pr <yourprofilename> includeos/test
 
 
 Building llvm stdc++ stdc++abi and libunwind
@@ -42,6 +42,6 @@ Building llvm stdc++ stdc++abi and libunwind
 If these recipes do not have a fixed version in the conan recipe then you have to specify it alongside the ``user/channel`` as ``package/version@user/channel`` otherwise you can use the same format at musl above.
 
 ::
-  $ conan create <conan-recipe-path>/llvm/libunwind -pr <yourprofilename> libunwind/7.0.1@includeos/test
-  $ conan create <conan-recipe-path>/llvm/libcxxabi -pr <yourprofilename> libcxxabi/7.0.1@includeos/test
-  $ conan create <conan-recipe-path>/llvm/libcxx -pr <yourprofilename> libcxx/7.0.1@includeos/test
+    $ conan create <conan-recipe-path>/llvm/libunwind -pr <yourprofilename> libunwind/7.0.1@includeos/test
+    $ conan create <conan-recipe-path>/llvm/libcxxabi -pr <yourprofilename> libcxxabi/7.0.1@includeos/test
+    $ conan create <conan-recipe-path>/llvm/libcxx -pr <yourprofilename> libcxx/7.0.1@includeos/test

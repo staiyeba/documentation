@@ -59,7 +59,7 @@ our packages developed for IncludeOS.
 You check your repository remotes, do:
 
 ::
-  $ conan remote list
+    $ conan remote list
 
 
 If the includeOS-Develop remote is not added do, you have to add it.
@@ -67,7 +67,7 @@ If the includeOS-Develop remote is not added do, you have to add it.
 To add the IncludeOS-Develop conan Artifactory repository to your conan remotes:
 
 ::
-  $ conan remote add includeos-test https://api.bintray.com/conan/includeos/test-packages
+    $ conan remote add includeos-test https://api.bintray.com/conan/includeos/test-packages
 
 .. toctree::
   :hidden:
