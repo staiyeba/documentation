@@ -1,28 +1,36 @@
 .. _Jenkins CI:
 
+CI Pipeline for Developers
+==========================
+
+We use continuous integration to build and test our projects on a regular basis.
+You will find all the repositories currently using CI under the
+IncludeOS Github Organization on our Jenkins server.
+
 Jenkins CI
-==========
+~~~~~~~~~~
 
-.. Update
+`Jenkins-public.includeos.org <https://jenkins-public.includeos.org/job/IncludeOS/>`__
+--------------------------------------------------------------------------------------
 
-`Jenkins.includeos.org <https://jenkins.includeos.org>`__
----------------------------------------------------------
 
-Getting your personal build to build on the jenkins server
-----------------------------------------------------------
+Personal builds on the Jenkins server
+-------------------------------------
 
-If you want to get your personal fork of IncludeOS to build with every commit this procedure will show you what steps to go through.
+If you want to get your personal fork of IncludeOS to build with every commit
+this procedure will show you what steps to go through.
 
-Things to take note off:
-
-- Will by default build on your dev branch. This will be easier to change at a later date.
+**Things to take note off:**
 
 - Will look for the repo: ``https://github.com/<github-username>/IncludeOS``
 
-- Does not merge with upstream dev automatically as of this date.
+- Does not merge with upstream dev automatically unless approved by an IncludeOS developer.
+
+
+Setting up the Webhook
+----------------------
 
 Follow these steps to get it to work:
--------------------------------------
 
 1. Go to the settings page for your **personal fork**
 
@@ -36,8 +44,13 @@ Follow these steps to get it to work:
 
 |Checkmark|
 
-Then when I create the tests results will be available on `Jenkins.includeos.org <https://jenkins.includeos.org>`__
+Then when the tests are complete, the results will be available on `jenkins-public.includeos.org <https://jenkins-public.includeos.org>`__
 
 .. |Settings menu| image:: http://i.imgur.com/wfoYcaD.png
 .. |Payload URL| image:: http://i.imgur.com/g0gEcBq.png
 .. |Checkmark| image:: http://i.imgur.com/yUTIwZ1.png?1
+
+Travis CI
+~~~~~~~~~
+
+We have recently started using `Travis CI <https://travis-ci.org/includeos>`__ to build and upload some of our dependencies for macos.
