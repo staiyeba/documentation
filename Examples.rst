@@ -1,48 +1,51 @@
-.. _Examples and libraries:
+.. _Examples:
 
-Examples and libraries
-======================
+Examples
+========
 
-`256 Color VGA <https://github.com/hioa-cs/IncludeOS/tree/master/examples/256_color_vga>`__
+Here we have a list of all the examples you will find in the `Examples Repository <https://github.com/includeos/demo-examples>`__ .
 
-`IRCd <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/IRCd>`__
+To build an example, follow the steps in the readme. Note that your
+build folder can be anywhere, as long as you point to the source recipe during
+`conan install <path to source folder> -pr <name-of-profile>`.
 
-`LiveUpdate <https://github.com/hioa-cs/IncludeOS/tree/master/examples/LiveUpdate>`__
 
-`SQlite <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/SQlite>`__
+`256 Color VGA <https://github.com/includeos/demo-examples/tree/master/256_color_vga>`__
 
-`STREAM <https://github.com/hioa-cs/IncludeOS/tree/master/examples/STREAM>`__
+`IRCd <https://github.com/includeos/demo-examples/tree/master/IRCd>`__
 
-`TCP perf <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/TCP_perf>`__
+`LiveUpdate <https://github.com/includeos/demo-examples/tree/master/LiveUpdate>`__
 
-`TLS server <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/TLS_server>`__
+`STREAM <https://github.com/includeos/demo-examples/tree/master/STREAM>`__
 
-`Acorn <https://github.com/hioa-cs/IncludeOS/tree/master/examples/acorn>`__
+`TCP perf <https://github.com/includeos/demo-examples/tree/master/TCP_perf>`__
 
-`Demo Linux <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/demo_linux>`__
+`TLS server <https://github.com/includeos/demo-examples/tree/master/TLS_server>`__
 
-`Demo Service <https://github.com/hioa-cs/IncludeOS/tree/master/examples/demo_service>`__
+`Acorn <https://github.com/includeos/demo-examples/tree/master/acorn>`__
 
-`Mender <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/mender>`__
+`Demo Service <https://github.com/includeos/demo-examples/tree/master/demo_service>`__
 
-`MicroLB <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/microLB>`__
+`Http Client <https://github.com/includeos/demo-examples/tree/master/http_client>`__
 
-`Router <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/router>`__
+`MicroLB <https://github.com/includeos/demo-examples/tree/master/microLB>`__
 
-`Dualnic <https://github.com/hioa-cs/IncludeOS/tree/master/examples/dualnic>`__
+`Protpbuf <https://github.com/includeos/demo-examples/tree/master/protobuf>`__
 
-`Scoped Profiler <https://github.com/hioa-cs/IncludeOS/tree/master/examples/scoped_profiler>`__
+`Router <https://github.com/includeos/demo-examples/tree/master/router>`__
 
-`SMP <https://github.com/hioa-cs/IncludeOS/tree/master/examples/smp>`__
+`Scoped Profiler <https://github.com/includeos/demo-examples/tree/master/scoped_profiler>`__
 
-`Snake <https://github.com/hioa-cs/IncludeOS/tree/master/examples/snake>`__
+`Snake <https://github.com/includeos/demo-examples/tree/master/snake>`__
 
-`Syslog <https://github.com/hioa-cs/IncludeOS/tree/master/examples/syslog>`__
+`Starlight <https://github.com/includeos/demo-examples/tree/master/starlight>`__
 
-`TCP <https://github.com/hioa-cs/IncludeOS/tree/master/examples/tcp>`__
+`Syslog <https://github.com/includeos/demo-examples/tree/master/syslog>`__
 
-`Vlan <https://github.com/hioa-cs/IncludeOS/tree/dev/examples/vlan>`__
+`TCP <https://github.com/includeos/demo-examples/tree/master/tcp>`__
 
-`Websocket <https://github.com/hioa-cs/IncludeOS/tree/master/examples/websocket>`__
+`Transfer <https://github.com/includeos/demo-examples/tree/master/transfer>`__
 
-`UniK Test Service <https://github.com/includeos/unik_test_service>`__
+`Vlan <https://github.com/includeos/demo-examples/tree/master/vlan>`__
+
+`Websocket <https://github.com/includeos/demo-examples/tree/master/websocket>`__

@@ -5,10 +5,8 @@ Contributing to IncludeOS
 
 Clone, edit and send us a pull request on GitHub
 ------------------------------------------------
-  
-IncludeOS is being developed on GitHub. Clone the `repository <https://github.com/hioa-cs/IncludeOS>`__, send us a `pull request <https://help.github.com/articles/using-pull-requests>`__ and `chat with us on Slack <https://goo.gl/NXBVsc>`__.
 
-Send any and all pull requests to the `dev-branch <https://github.com/hioa-cs/IncludeOS/tree/dev>`__. It's ok if it comes from your master branch.
+IncludeOS is being developed on GitHub. Clone the `repository <https://github.com/includeos/IncludeOS>`__, send us a `pull request <https://help.github.com/articles/using-pull-requests>`__ and `chat with us on Slack <https://goo.gl/NXBVsc>`__.
 
 Guidelines
 ~~~~~~~~~~

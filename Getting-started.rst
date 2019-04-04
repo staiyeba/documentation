@@ -18,54 +18,56 @@ Dependencies
 
 To build a minimal IncludeOS the following dependencies are required at the moment.
 
-- Cmake
-- Clang version: ``6.0``
-- GCC version: ``gcc-7``
+- Cmake, make, nasm
+- Clang or GCC
 - `Conan <https://github.com/conan-io/conan>`__
 
-To get help with your conan setup follow the instruction at
-:ref:`Conan Configuration <Conan configs>`
+> For more specific installation instructions for mac or linux checkout the linux guide or mac os guide.
 
-Build IncludeOS
-~~~~~~~~~~~~~~~
+To boot VMs locally you will also need:
 
-To build IncludeOS with our conan packages you will need:
+* qemu
+* python3
+* python packages: psutil, jsonschema
 
-- A `Profile <https://github.com/includeos/conan_config/profiles>`__
-- Access to our built conan packages
+> For Mac OS ensure that you have a working installation of [brew](https://brew.sh/) to be able to install all dependencies. To get help with your conan setup follow the instruction at :ref:`Conan Configuration <Conan configs>`
 
-To get access to the packages add our Artifactory to your conan remote list:
+Hello World with IncludeOS
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Let's get started with getting our traditional hello World with IncludeOS.
+You don't need to install IncludeOS to run a service, so just clone the service
+repository.
+
+```
+    $ git clone https://github.com/includeos/hello_world
+    $ cd hello_world
+```
+You will need to ensure you have our conan package remote and profiles in place
+to build/run the service. The [IncludeOS](https://www.includeos.org/) conan recipes are developed with [Conan version 1.13.1](https://github.com/conan-io/conan/releases/tag/1.13.1) or newer.
+
+```
+    $ conan config install https://github.com/includeos/conan_config
+```
+**Selecting an appropriate [conan profile](https://docs.conan.io/en/latest/reference/profiles.html)**
+
+First of running `conan profile list` will show the profiles installed.
+- Linux users can typically use `clang-6.0-linux-x86_64`
+- MacOS users can use `clang-6.0-macos-x86_64`. You can also make your own.
+
+The following steps let you build and boot the IncludeOS hello world example.
 
 ::
+    bash
+    $ git clone https://github.com/includeos/hello_world.git
+    $ mkdir your_build_dir && cd "$_"
+    $ conan install ../hello_world -pr <your_conan_profile>
+    $ source activate.sh
+    $ cmake ../hello_world
+    $ cmake --build .
+    $ boot hello
 
-    $ conan remote add includeos-test https://api.bintray.com/conan/includeos/test-packages
-
-
-Compilers
----------
-
-Currently we are building IncludeOS on Linux with ``clang-6.0`` and ``gcc-7.3``.
-All our dependencies, libraries and tools found on the artifactory are built
-and test with these two compilers.
-
-Building kernel on Linux
-------------------------
-
-To build IncludeOS on Linux for Linux with clang-6.0 you can use the profile named
-``clang-6.0-linux-x86_64``:
-
-::
-
-    $ cmake -DCONAN_PROFILE=clang-6.0-linux-x86_64 <path to includeos repo>
-    $ make
-    $ make install
-
-
-Cross-Platform Building
-^^^^^^^^^^^^^^^^^^^^^^^
-
-To build IncludeOS for MacOS on Linux, you can use the ``clang-6.0-macos-x86_64``
-profile.
+For more advanced examples see the [examples repo](https://github.com/includeos/demo-examples). Once you're done `$ source deactivate.sh` will reset the environment to its previous state.
 
 
 .. toctree::

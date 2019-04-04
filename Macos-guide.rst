@@ -15,3 +15,12 @@ Dependencies
 
 - Cmake
 - Conan
+
+#### macOS
+If you have [homebrew](https://brew.sh/) you can use our `brew tap` to install the dependencies.
+
+```text
+$ brew tap includeos/includeos
+$ brew install includeos
+$ conan config install https://github.com/includeos/conan_config.git
+```
