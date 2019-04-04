@@ -16,7 +16,7 @@ To configure using this repo just do:
     $ conan config install https://github.com/includeos/conan_config.git
 
 
-This adds our remote artifactory in your conan remotes and also installs all the
+This adds IncludeOS bintray remote in your conan remotes and also installs all the
 profiles we have in the repository for you.
 
 Profiles
