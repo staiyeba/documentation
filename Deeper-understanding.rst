@@ -7,7 +7,7 @@ More about IncludeOS
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Contents
 
    The-build-process
    The-boot-process

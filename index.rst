@@ -7,13 +7,12 @@ For more information: Visit our `website <http://www.includeos.org>`__, check ou
 
 .. toctree::
    :hidden:
-   :maxdepth: 3
+   :maxdepth: 2
 
    Introduction
    Deeper-understanding
    Getting-started
    Conanigans
-   Conan-configs
    NaCl
    Security
    Contributing-to-IncludeOS

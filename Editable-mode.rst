@@ -4,23 +4,25 @@ Editable package Mode
 =====================
 
 If you are a kernel developer or are simple interested in fiddling with our
-kernel code, you can use the includeos package in `editable` mode. This is useful
+kernel code, you can use the includeos package in ``editable`` mode. This is useful
 when working with several interconnected components and you would like to test
 your changes across several libraries or functionalities.
 
 Below we have written down a few steps to get you started with editable packages.
-You can read more about it at [packages in editable mode](https://docs.conan.io/en/latest/developing_packages/editable_packages.html).
+You can read more about it at `packages in editable mode <https://docs.conan.io/en/latest/developing_packages/editable_packages.html>`__.
 
-> **Note:** Currently this is an experimental feature on conan version 1.13 and they
-have mentioned that for future releases the feature is subject to breaking changes.
+.. note::
+    Currently this is an experimental feature on conan version 1.13 and they
+    have mentioned that for future releases the feature is subject to breaking changes.
 
 To get started with getting the conan package in editable mode,
 
-- ###### Create a `build` folder to build IncludeOS
+* Create a ``build`` folder to build IncludeOS
 
-- ###### Edit the `etc/layout.txt` : _(uses jinja2 syntax)_ needed to parse the build folder correctly.
+* Edit the ``etc/layout.txt`` : ( **uses jinja2 syntax** ) needed to parse the build folder correctly.
 
 Do some local adaptions for where your build folder is relative to the includeos source folder by setting build_dir in the third line as follows :
+
 ::
 
     {% set simple=true%}
@@ -52,19 +54,22 @@ Do some local adaptions for where your build folder is relative to the includeos
     {#This is so that we can find ldscript and search for drivers plugins etc#}
     {{ build_dir }}
 
-> **Note:** in the non simple form it is possible to have multiple build folders from the same source which allows multiple architectures and configurations to be tested from the same source however the complexity increases
+.. note::
+    In the non simple form it is possible to have multiple build folders from the same source which allows multiple architectures and configurations to be tested from the same source however the complexity increases
 
 
-- ###### Set the conan package into **editable mode**
+Set package into editable mode
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Make sure to adjust the version to whatever is apropriate.
+Make sure to adjust the version to whatever is appropriate.
 
 ::
 
     conan editable add . includeos/$(conan inspect -a version . | cut -d " " -f 2)@includeos/latest --layout=etc/layout.txt
 
 
-- ###### Check Status
+Check Status
+~~~~~~~~~~~~
 
 The package is now in **editable mode** and any dependencies of IncludeOS will
 pick this IncludeOS package from your local cache. If you make any changes to the
@@ -81,7 +86,9 @@ Here is an example on how it looks when its pulled into cache as editable:
     Layout: ~/git/IncludeOS/etc/layout.txt
 
 
-- ###### Build IncludeOS
+Build IncludeOS
+~~~~~~~~~~~~~~~
+
 Asuming the buildfolder is build under the includeos source directory the following is enough.
 you can also manually perform the build step for the editable package however doing the step below ensures all parameters are transfered correctly from your conan profile and options into the build.
 
@@ -90,8 +97,9 @@ you can also manually perform the build step for the editable package however do
     conan install -if build . -pr <conan_profile> (-o options like platform=nano etc)
     conan build -bf build .
 
-- ###### building small changes once the first build is done
-Once IncludeOS is buildt by the conan build command you simply have to make sure to issue a make command in the build location
+*Building small changes once the first build is done*
+
+Once IncludeOS is built by the conan build command you simply have to make sure to issue a make command in the build location
 
 ::
 
@@ -99,12 +107,13 @@ Once IncludeOS is buildt by the conan build command you simply have to make sure
     or
     cmake build --build
 
-- ###### Finalizing Changes
+Finalizing Changes
+~~~~~~~~~~~~~~~~~~
 
-Once the code is **finalized** and you want to verify that the conan package
+Once the code is *finalized* and you want to verify that the conan package
 still builds remove the editable and do a conan create on the package:
 
 ::
 
-    $ conan editable remove includeos/0.15.0@includeos/test
+    $ conan editable remove includeos/0.15.0@includeos/stable
     $ conan create <source_path> includeos/Latest -pr <conan_profile>
