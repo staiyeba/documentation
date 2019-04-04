@@ -1,8 +1,12 @@
 .. _Tools:
 
-<<<<<<< HEAD
 Tools, Libraries and Dependencies
 =================================
+
+Here we have a list of tools, libraries and other external dependencies used by
+IncludeOS. Some are developed by IncludeOS and others are third party dependencies.
+Note that for some third party dependencies, IncludeOS has their own fork to make
+custom changes needed for the development of IncludeOS.
 
 Tools
 ~~~~~
@@ -27,43 +31,29 @@ Libraries
 ~~~~~~~~~
 
 Libraries developed by IncludeOS are listed here.
-
+You will also find a list of achieved libraries below.
 
 `MicroLB <https://github.com/includeos/microLB>`__
 --------------------------------------------------
 
-
 `Mana <https://github.com/includeos/mana>`__
 --------------------------------------------
-
 
 `Mender <https://github.com/includeos/mender>`__
 ------------------------------------------------
 
-=======
-Tools and Libraries
-===================
+`Bucket <https://github.com/includeos/bucket>`__
+------------------------------------------------
 
-.. Needs an update
+Archived Libraries
+------------------
 
-`LiveUpdate <https://github.com/hioa-cs/IncludeOS/tree/master/lib/LiveUpdate>`__
-
-`MicroLB <https://github.com/hioa-cs/IncludeOS/tree/dev/lib/microLB>`__
-
-`Uplink <https://github.com/hioa-cs/IncludeOS/tree/master/lib/uplink>`__
-
-`Mana <https://github.com/hioa-cs/IncludeOS/tree/master/lib/mana>`__
-
-`Protobuf <https://github.com/RicoAntonioFelix/protobuf/tree/master>`__
-
-`Mender <https://github.com/hioa-cs/IncludeOS/tree/dev/lib/mender>`__
->>>>>>> d5fb1201357253d4116c3c89a98f151a8ce6b9ba
+We have a number of libraries here that were developed by us, but are no longer
+maintained. Feel free to browse if you are interested in any of them.
 
 `URI <https://github.com/includeos/uri>`__
 
 `HTTP <https://github.com/includeos/http>`__
-
-`Bucket <https://github.com/includeos/bucket>`__
 
 `Dashboard <https://github.com/includeos/dashboard>`__
 
@@ -76,14 +66,6 @@ Tools and Libraries
 `Director <https://github.com/includeos/director>`__
 
 `Butler <https://github.com/includeos/butler>`__
-
-
-Drivers and Plugins
-~~~~~~~~~~~~~~~~~~~
-
-`Uplink <https://github.com/includeos/uplink>`__
-------------------------------------------------
-
 
 Dependencies
 ~~~~~~~~~~~~
