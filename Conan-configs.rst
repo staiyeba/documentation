@@ -11,7 +11,8 @@ that helps IncludeOS users configure all the necessary
 conan settings. To configure using this repo just do:
 
 ::
-  $ conan config install https://github.com/includeos/conan_config.git
+
+    $ conan config install https://github.com/includeos/conan_config.git
 
 
 This adds our remote artifactory in your conan remotes and also installs all the

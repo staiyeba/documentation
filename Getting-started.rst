@@ -39,16 +39,18 @@ Let's get started with getting our traditional hello World with IncludeOS.
 You don't need to install IncludeOS to run a service, so just clone the service
 repository.
 
-```
+::
+
     $ git clone https://github.com/includeos/hello_world
     $ cd hello_world
-```
+
 You will need to ensure you have our conan package remote and profiles in place
 to build/run the service. The [IncludeOS](https://www.includeos.org/) conan recipes are developed with [Conan version 1.13.1](https://github.com/conan-io/conan/releases/tag/1.13.1) or newer.
 
-```
+::
+
     $ conan config install https://github.com/includeos/conan_config
-```
+
 **Selecting an appropriate [conan profile](https://docs.conan.io/en/latest/reference/profiles.html)**
 
 First of running `conan profile list` will show the profiles installed.
@@ -58,7 +60,7 @@ First of running `conan profile list` will show the profiles installed.
 The following steps let you build and boot the IncludeOS hello world example.
 
 ::
-    bash
+
     $ git clone https://github.com/includeos/hello_world.git
     $ mkdir your_build_dir && cd "$_"
     $ conan install ../hello_world -pr <your_conan_profile>

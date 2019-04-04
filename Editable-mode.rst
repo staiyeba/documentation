@@ -21,37 +21,37 @@ To get started with getting the conan package in editable mode,
 - ###### Edit the `etc/layout.txt` : _(uses jinja2 syntax)_ needed to parse the build folder correctly.
 
 Do some local adaptions for where your build folder is relative to the includeos source folder by setting build_dir in the third line as follows :
-```
-  {% set simple=true%}
+::
 
-  {% set build_dir='build' %}
+    {% set simple=true%}
 
-  {% if simple==false %}
-  {% set arch=settings.arch|string %}
-  {% set platform=options.platform|string %}
-  {% set build_dir=build_dir+'/'+arch+'/'+platform %}
-  {% endif %}
+    {% set build_dir='build' %}
 
-  [bindirs]
-  {#This is so that we can find os.cmake after including conanbuildinfo.cmake #}
-  cmake
+    {% if simple==false %}
+    {% set arch=settings.arch|string %}
+    {% set platform=options.platform|string %}
+    {% set build_dir=build_dir+'/'+arch+'/'+platform %}
+    {% endif %}
 
-  [includedirs]
-  {#This is to ensure the include directory in conanbuildinfo.cmake includes our API#}
-  api
+    [bindirs]
+    {#This is so that we can find os.cmake after including conanbuildinfo.cmake #}
+    cmake
 
-  [libdirs]
-  {#This is so that we can find our libraries #}
-  {{ build_dir }}/plugins
-  {{ build_dir }}/drivers
-  {{ build_dir }}/lib
-  {{ build_dir }}/platform
+    [includedirs]
+    {#This is to ensure the include directory in conanbuildinfo.cmake includes our API#}
+    api
 
-  [resdirs]
-  {#This is so that we can find ldscript and search for drivers plugins etc#}
-  {{ build_dir }}
+    [libdirs]
+    {#This is so that we can find our libraries #}
+    {{ build_dir }}/plugins
+    {{ build_dir }}/drivers
+    {{ build_dir }}/lib
+    {{ build_dir }}/platform
 
-```
+    [resdirs]
+    {#This is so that we can find ldscript and search for drivers plugins etc#}
+    {{ build_dir }}
+
 > **Note:** in the non simple form it is possible to have multiple build folders from the same source which allows multiple architectures and configurations to be tested from the same source however the complexity increases
 
 
@@ -59,9 +59,10 @@ Do some local adaptions for where your build folder is relative to the includeos
 
 Make sure to adjust the version to whatever is apropriate.
 
-```
-  conan editable add . includeos/$(conan inspect -a version . | cut -d " " -f 2)@includeos/latest --layout=etc/layout.txt
-```
+::
+
+    conan editable add . includeos/$(conan inspect -a version . | cut -d " " -f 2)@includeos/latest --layout=etc/layout.txt
+
 
 - ###### Check Status
 
@@ -72,33 +73,38 @@ you need to redo the `conan install` step.
 
 Here is an example on how it looks when its pulled into cache as editable:
 
-```
-  $ conan editable list
+::
+
+    $ conan editable list
     includeos/0.14.1-1052@includeos/latest
-      Path: ~/git/IncludeOS
-      Layout: ~/git/IncludeOS/etc/layout.txt
-```
+    Path: ~/git/IncludeOS
+    Layout: ~/git/IncludeOS/etc/layout.txt
+
 
 - ###### Build IncludeOS
 Asuming the buildfolder is build under the includeos source directory the following is enough.
 you can also manually perform the build step for the editable package however doing the step below ensures all parameters are transfered correctly from your conan profile and options into the build.
-```
-  conan install -if build . -pr <conan_profile> (-o options like platform=nano etc)
-  conan build -bf build .
-```
+
+::
+
+    conan install -if build . -pr <conan_profile> (-o options like platform=nano etc)
+    conan build -bf build .
+
 - ###### building small changes once the first build is done
 Once IncludeOS is buildt by the conan build command you simply have to make sure to issue a make command in the build location
-```
-  cd build && make
-  or
-  cmake build --build
-```
+
+::
+
+    cd build && make
+    or
+    cmake build --build
+
 - ###### Finalizing Changes
 
 Once the code is **finalized** and you want to verify that the conan package
 still builds remove the editable and do a conan create on the package:
 
-```
-  $ conan editable remove includeos/0.15.0@includeos/test
-  $ conan create <source_path> includeos/Latest -pr <conan_profile>
-```
+::
+
+    $ conan editable remove includeos/0.15.0@includeos/test
+    $ conan create <source_path> includeos/Latest -pr <conan_profile>

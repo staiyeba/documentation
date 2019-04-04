@@ -21,14 +21,17 @@ To boot VMs locally you will also need:
 
 The following command will configure conan to use our build profiles and remote repositories. (**Note:** this overwrites any existing conan configuration. Set `CONAN_USER_HOME` to create a separate conan home folder for testing.)
 
-```text
-$ conan config install https://github.com/includeos/conan_config.git
-```
+::
+
+    $ conan config install https://github.com/includeos/conan_config.git
+
+
 If you prefer to set up conan manually the full configuration can be found in the [conan_config](https://github.com/includeos/conan_config.git)-repository.
 
 #### Ubuntu
 
-```text
-$ apt-get install python3-pip python3-dev git cmake clang-6.0 gcc nasm make qemu
-$ pip3 install setuptools wheel conan psutil jsonschema
-$ conan config install https://github.com/includeos/conan_config.git
+::
+
+    $ apt-get install python3-pip python3-dev git cmake clang-6.0 gcc nasm make qemu
+    $ pip3 install setuptools wheel conan psutil jsonschema
+    $ conan config install https://github.com/includeos/conan_config.git

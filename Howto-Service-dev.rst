@@ -36,9 +36,10 @@ add a README in your example folder with description of your service.
 
 > **Note:** Remember to deactivate your service environment after your work with:
 
-```
-  $ source deactivate.sh
-```
+::
+
+    $ source deactivate.sh
+
 
 Uploading your Service to bintray
 ---------------------------------

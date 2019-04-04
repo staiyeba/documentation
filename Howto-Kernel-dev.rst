@@ -81,9 +81,10 @@ To build `bintuils` using our [includeos/conan](https://github.com/includeos/con
 - Clone the repository
 - Do `conan create` as follows:
 
-```
-conan create <binutils-conan-recipe-path>/binutils/2.31 -pr <yourprofilename>-toolchain includeos/test
-```
+::
+
+    conan create <binutils-conan-recipe-path>/binutils/2.31 -pr <yourprofilename>-toolchain includeos/test
+
 
 For MacOS users, we currently have a [apple-clang-10-macos-toolchain](https://github.com/includeos/conan_config/blob/master/profiles/apple-clang-10-macos-toolchain) for building a binutils package.
 
@@ -101,9 +102,10 @@ other missing libraries installed.
 - Secure Sockets Layer toolkit `libssl-dev`
 
 ###### Building musl
-```
-conan create <conan-recipe-path>/musl/1.1.18 -pr <yourprofilename> includeos/test
-```
+::
+
+    conan create <conan-recipe-path>/musl/1.1.18 -pr <yourprofilename> includeos/test
+
 
 ###### Building llvm stdc++ stdc++abi and libunwind
 
@@ -111,11 +113,12 @@ If these recipes do not have a fixed version in the conan recipe then you have
 to specify it alongside the `user/channel` as `package/version@user/channel`
 otherwise you can use the same format at musl above.
 
-```
-conan create <conan-recipe-path>/llvm/libunwind -pr <yourprofilename> libunwind/7.0.1@includeos/test
-conan create <conan-recipe-path>/llvm/libcxxabi -pr <yourprofilename> libcxxabi/7.0.1@includeos/test
-conan create <conan-recipe-path>/llvm/libcxx -pr <yourprofilename> libcxx/7.0.1@includeos/test
-```
+::
+
+    conan create <conan-recipe-path>/llvm/libunwind -pr <yourprofilename> libunwind/7.0.1@includeos/test
+    conan create <conan-recipe-path>/llvm/libcxxabi -pr <yourprofilename> libcxxabi/7.0.1@includeos/test
+    conan create <conan-recipe-path>/llvm/libcxx -pr <yourprofilename> libcxx/7.0.1@includeos/test
+
 ___
 
 ##### Building IncludeOS libraries and tools
@@ -125,11 +128,12 @@ repository. You can now find them all in their own repositories inside the Inclu
 
 To build the libraries and tools,
 
-```
-  $ git clone https://github.com/includeos/mana.git
-  $ cd mana
-  $ conan create . includeos/latest -pr clang-6.0-linux-x86_64
-```
+::
+
+    $ git clone https://github.com/includeos/mana.git
+    $ cd mana
+    $ conan create . includeos/latest -pr clang-6.0-linux-x86_64
+
 
 <a name="libs_tools"></a> Below is a list of some of our Libraries/Tools:
 
