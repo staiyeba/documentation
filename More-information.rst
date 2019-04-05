@@ -19,7 +19,7 @@ IncludeOS - Per Buer
 .. raw:: html
 
 	<div style="padding-bottom: 2em">
-		<iframe width="560" height="315" src="https://www.youtube.com/watch?v=1x64xjKZ1Q4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/1x64xjKZ1Q4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 NDC Conference 2018
@@ -30,7 +30,7 @@ IncludeOS - running C++ applications without an operating system - Per Buer
 .. raw:: html
 
 	<div style="padding-bottom: 2em">
-		<iframe width="560" height="315" src="https://www.youtube.com/watch?v=cQPrtTsM7Zg" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/cQPrtTsM7Zg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 
