@@ -43,11 +43,3 @@ We have set up a repository that will configure your local conan to use our buil
     $ conan config install https://github.com/includeos/conan_config.git
 
 If you prefer to set up conan manually the full configuration can be found in the [conan_config](https://github.com/includeos/conan_config.git)-repository.
-
-.. _Build linux:
-
-Building the kernel on Linux
-----------------------------
-
-To build IncludeOS on Linux for Linux you can use the profile named
-``clang-6.0-linux-x86_64`` or ``gcc-7.3.0-linux-x86_64`` :

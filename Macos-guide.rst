@@ -43,11 +43,3 @@ We have set up a repository that will configure your local conan to use our buil
     $ conan config install https://github.com/includeos/conan_config.git
 
 If you prefer to set up conan manually the full configuration can be found in the [conan_config](https://github.com/includeos/conan_config.git)-repository.
-
-.. _Build mac:
-
-Building the kernel on Mac
---------------------------
-
-To build IncludeOS on Linux for Linux with clang-6.0 you can use the profile named
-``clang-6.0-macos-x86_64``:

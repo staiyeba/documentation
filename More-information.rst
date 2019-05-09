@@ -30,7 +30,7 @@ IncludeOS - running C++ applications without an operating system - Per Buer
 .. raw:: html
 
 	<div style="padding-bottom: 2em">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/cQPrtTsM7Zg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/cQPrtTsM7Zg" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
     </div>
 
 

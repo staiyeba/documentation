@@ -34,17 +34,3 @@ Cross-Platform Building
 
 To build IncludeOS for MacOS on Linux, you can use the ``clang-6.0-macos-x86_64``
 profile.
-
-
-Kernel Development
-------------------
-
-
-Using our Packages
-------------------
-
-
-
-
-Uploading your Packages
------------------------
