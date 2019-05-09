@@ -33,7 +33,7 @@ If you're making drastic changes to a file, but mostly adding comments, reformat
 
 **5. Please don't redo the folder-structure**
 
-If you have suggestions for this, just post an `issue <https://github.com/hioa-cs/IncludeOS/issues>`__ explaining the benefits of your suggested structure.
+If you have suggestions for this, just post an `issue <https://github.com/includeos/IncludeOS/issues>`__ explaining the benefits of your suggested structure.
 
 Code formatting
 ~~~~~~~~~~~~~~~
@@ -148,7 +148,7 @@ Code formatting
 Issue tracker
 -------------
 
-Post any issues not already mentioned, in the `issue tracker on GitHub <https://github.com/hioa-cs/IncludeOS/issues>`__. You can also post questions not answered by editing the :ref:`FAQ` on GitHub.
+Post any issues not already mentioned, in the `issue tracker on GitHub <https://github.com/includeos/IncludeOS/issues>`__. You can also post questions not answered by editing the :ref:`FAQ` on GitHub.
 
 Chat on Slack
 -------------

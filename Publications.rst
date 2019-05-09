@@ -6,7 +6,7 @@ Publications
 Initial IncludeOS paper, 2015
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Bratterud, A.; Walla, A.; Haugerud, H.; Engelstad; P.E., Begnum, K., "`IncludeOS: a resource efficient unikernel for cloud services <https://github.com/hioa-cs/IncludeOS/blob/master/doc/papers/IncludeOS_IEEE_CloudCom2015_PREPRINT.pdf>`__" in *Cloud Computing Technology and Science (CloudCom), 2015 IEEE 7th International Conference on*
+- Bratterud, A.; Walla, A.; Haugerud, H.; Engelstad; P.E., Begnum, K., "`IncludeOS: a resource efficient unikernel for cloud services <https://github.com/includeos/IncludeOS/blob/master/doc/papers/IncludeOS_IEEE_CloudCom2015_PREPRINT.pdf>`__" in *Cloud Computing Technology and Science (CloudCom), 2015 IEEE 7th International Conference on*
 
 Motivating paper, 2013
 ~~~~~~~~~~~~~~~~~~~~~~

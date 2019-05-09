@@ -30,7 +30,7 @@ You can use the recipe below to get all the dependencies in place.
     $ pip3 install setuptools wheel conan psutil jsonschema
 
 
-*Getting Conan remotes and profiles*
+**Getting Conan remotes and profiles**
 
 We have set up a repository that will configure your local conan to use our build profiles and remote repositories.
 
@@ -42,4 +42,4 @@ We have set up a repository that will configure your local conan to use our buil
 
     $ conan config install https://github.com/includeos/conan_config.git
 
-If you prefer to set up conan manually the full configuration can be found in the [conan_config](https://github.com/includeos/conan_config.git)-repository.
+If you prefer to set up conan manually the full configuration can be found in the `conan_config <https://github.com/includeos/conan_config.git>`__ repository.

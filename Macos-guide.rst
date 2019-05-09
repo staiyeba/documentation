@@ -3,7 +3,7 @@
 MacOS Guide
 ===========
 
-To start building on MacOS make sure to have a working installation of [brew](https://brew.sh/) to be able to install all dependencies.
+To start building on MacOS make sure to have a working installation of `brew <https://brew.sh/>`__ to be able to install all dependencies.
 
 Dependencies
 ------------
@@ -20,7 +20,7 @@ To boot VMs locally you will also need:
 * python3
 * python packages: psutil, jsonschema
 
-Once you have [homebrew](https://brew.sh/) you can use our ``brew tap`` to install the dependencies as follows.
+Once you have `homebrew <https://brew.sh/>`__ you can use our ``brew tap`` to install the dependencies as follows.
 
 ::
 
@@ -30,7 +30,7 @@ Once you have [homebrew](https://brew.sh/) you can use our ``brew tap`` to insta
 Checkout our `homebrew formula for IncludeOS <https://github.com/includeos/homebrew-includeos>`__
 
 
-*Getting Conan remotes and profiles*
+**Getting Conan remotes and profiles**
 
 We have set up a repository that will configure your local conan to use our build profiles and remote repositories.
 
@@ -42,4 +42,4 @@ We have set up a repository that will configure your local conan to use our buil
 
     $ conan config install https://github.com/includeos/conan_config.git
 
-If you prefer to set up conan manually the full configuration can be found in the [conan_config](https://github.com/includeos/conan_config.git)-repository.
+If you prefer to set up conan manually the full configuration can be found in the `conan_config <https://github.com/includeos/conan_config.git>`__ repository.

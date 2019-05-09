@@ -10,8 +10,8 @@ IncludeOS Github Organization on our Jenkins server.
 Jenkins CI
 ~~~~~~~~~~
 
-`Jenkins-public.includeos.org <https://jenkins-public.includeos.org/job/IncludeOS/>`__
---------------------------------------------------------------------------------------
+Build Node: `Jenkins-public.includeos.org <https://jenkins-public.includeos.org/job/IncludeOS/>`__
+---------------------------------------------------------------------------------------------------
 
 
 Personal builds on the Jenkins server
@@ -24,7 +24,7 @@ this procedure will show you what steps to go through.
 
 - Will look for the repo: ``https://github.com/<github-username>/IncludeOS``
 
-- Does not merge with upstream dev automatically unless approved by an IncludeOS developer.
+- Does not merge with upstream automatically unless approved by an IncludeOS developer.
 
 
 Setting up the Webhook
@@ -53,4 +53,5 @@ Then when the tests are complete, the results will be available on `jenkins-publ
 Travis CI
 ~~~~~~~~~
 
-We have recently started using `Travis CI <https://travis-ci.org/includeos>`__ to build and upload some of our dependencies for macos.
+We have recently started using `Travis CI <https://travis-ci.org/includeos>`__ to build and upload some of our dependencies for macos. We are also building and
+testing deploy for our `homebrew-includeos` project.

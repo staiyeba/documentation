@@ -75,4 +75,4 @@ To add the IncludeOS bintray repository to your conan remotes:
 
 ::
 
-    $ conan remote add includeos-test https://api.bintray.com/conan/includeos
+    $ conan remote add includeos https://api.bintray.com/conan/includeos
