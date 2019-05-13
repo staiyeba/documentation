@@ -1,4 +1,4 @@
-.. _Getting started:
+.. _in depth install:
 
 Getting started with IncludeOS
 ==============================
