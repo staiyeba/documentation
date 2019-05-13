@@ -11,7 +11,8 @@ For more information: Visit our `website <https://www.includeos.org>`__, check o
 
     getting_started/Introduction
     getting_started/Install
-    getting_started/Getting-started
+    getting_started/Hello_world
+    getting_started/Developing_includeos
 
 
 .. toctree::
