@@ -11,4 +11,6 @@ More about IncludeOS
 
    The-build-process
    The-boot-process
+   Using-memdisks
+   Tools
    Fun-with-Guns-and-Knives
