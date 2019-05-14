@@ -21,6 +21,7 @@ For more information: Visit our `website <https://www.includeos.org>`__, check o
     in_depth/Deeper-understanding
     in_depth/Conanigans
     in_depth/NaCl
+    in_depth/Testing
     in_depth/Contributing-to-IncludeOS
 
 .. toctree::
