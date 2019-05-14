@@ -14,7 +14,6 @@ For more information: Visit our `website <https://www.includeos.org>`__, check o
     getting_started/Hello_world
     getting_started/Developing_includeos
 
-
 .. toctree::
     :maxdepth: 2
     :caption: In depth
@@ -28,9 +27,8 @@ For more information: Visit our `website <https://www.includeos.org>`__, check o
     :maxdepth: 2
     :caption: More information
 
+    more_info/Resources
     more_info/Security
     more_info/FAQ
-    more_info/More-information
-    more_info/Publications
     more_info/Roadmap
     more_info/Acknowledgements
