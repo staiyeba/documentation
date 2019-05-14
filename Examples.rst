@@ -5,9 +5,8 @@ Examples
 
 Here we have a list of all the examples you will find in the `Examples Repository <https://github.com/includeos/demo-examples>`__ .
 
-To build an example, follow the steps in the readme. Note that your
-build folder can be anywhere, as long as you point to the source recipe during
-`conan install <path to source folder> -pr <name-of-profile>`.
+To build an example, follow the steps in the `Readme <https://github.com/includeos/demo-examples/blob/master/README.md>`__ . Note that your
+build folder can be anywhere, as long as you point to the source recipe during conan install - ``conan install <path to source folder> -pr <name-of-profile>`` .
 
 
 `256 Color VGA <https://github.com/includeos/demo-examples/tree/master/256_color_vga>`__
