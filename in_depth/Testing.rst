@@ -20,6 +20,8 @@ To install and build the unit tests do:
 
   $ conan install IncludeOS/test -pr gcc-7.3.0-linux-x86_64 -s build_type=Debug
   $ . ./activate.sh
+  $ cmake
+  $ make -j nproc
 
 Then to run the unit tests in random order do;
 
@@ -28,7 +30,7 @@ Then to run the unit tests in random order do;
    $ ctest --schedule-random
 
 
-If you want to get the coverage report for the unit tests as well do:
+If you want to get the coverage report for your unit tests as well do:
 
 ::
 
