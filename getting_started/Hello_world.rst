@@ -3,7 +3,12 @@
 Hello World with IncludeOS
 ==========================
 
-You don't need to manually install IncludeOS to build a service. Our pipeline builds IncludeOS conan packages and uploads them to `bintray <https://bintray.com/beta/includeos/includeos/includeos:includeos>`__.
+If you would rather build the service using Docker please see:
+
+.. toctree::
+  Hello_world_docker
+
+You don't need to manually build IncludeOS to build a service. Our pipeline builds IncludeOS conan packages and uploads them to `bintray <https://bintray.com/beta/includeos/includeos/includeos:includeos>`__.
 A service then specifies which version of IncludeOS to use when building.
 To get started with the `hello_world` example just clone the service repository:
 
